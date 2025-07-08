@@ -25,11 +25,18 @@
 </head>
 <body class="text-gray-800 font-sans">
 
-  <!-- Первый экран (укорочен на ~30%) -->
-  <section class="min-h-[70vh] flex items-center justify-center text-center px-4 bg-gradient-to-b from-green-100 to-white">
-    <div>
+  <!-- Первый экран с текстом по центру и датой внизу -->
+  <section class="h-screen flex flex-col justify-between text-center px-4 bg-gradient-to-b from-green-100 to-white py-8">
+    
+    <!-- Центрированный текст -->
+    <div class="flex-1 flex flex-col justify-center items-center">
       <h1 class="text-5xl md:text-7xl text-[#657a63] great-vibes mb-4">Happy Birthday</h1>
       <h2 class="text-4xl md:text-6xl text-gray-800 great-vibes">Enlyk 1 жас</h2>
+    </div>
+
+    <!-- Дата внизу -->
+    <div class="text-sm text-gray-600 montserrat pb-4">
+      13 июля, воскресенье
     </div>
   </section>
 
